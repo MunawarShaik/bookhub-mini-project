@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.tab-item {
+  list-style-type: none;
+}
+
+.tab-button {
+  color: #0284c7;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  padding: 2px 12px 2px 12px;
+  margin-top: 10px;
+  border-radius: 12px;
+  margin-right: 10px;
+  border: 1px solid #0284c7;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #2563eb;
+  color: white;
+}
+@media screen and (min-width: 768px) {
+  .tab-button {
+    border: none;
+    color: #475569;
+    font-size: 10px;
+    font-weight: normal;
+    padding-left: 0px;
+    margin: 0px;
+  }
+  .active {
+    background-color: transparent;
+    color: #2563eb;
+  }
+}

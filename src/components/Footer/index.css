@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 0px;
+  padding: 10px;
+  color: #3d3c3c;
+  background-color: #f5f7fa;
+  margin-bottom: 10px;
+}
+.footer-list {
+  display: flex;
+  background-color: transparent;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer-item {
+  list-style-type: none;
+  margin-right: 16px;
+}
+.footer-para {
+  align-self: center;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-left: 16px;
+  background-color: transparent;
+}

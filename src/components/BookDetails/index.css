@@ -1,0 +1,150 @@
+a {
+  text-decoration: none;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f7fa;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+.book-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.book-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-container {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.rating-div {
+  display: flex;
+  margin-top: 4px;
+  color: #475569;
+  font-size: 12px;
+  padding: 0;
+  font-family: 'Inter';
+}
+.star-icon {
+  color: #fbbf24;
+  width: 20px;
+  height: 20px;
+}
+.status {
+  font-size: 12px;
+  margin-top: 0;
+  color: #475569;
+}
+.span {
+  color: #0284c7;
+}
+.book-item {
+  display: flex;
+  width: 80%;
+  margin-bottom: 20px;
+}
+.book-img {
+  width: 133px;
+  height: 155px;
+  border-radius: 8px;
+}
+.book-details {
+  padding: 20px;
+  margin-left: 6px;
+}
+.book-title {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #475569;
+}
+.book-author {
+  color: #475569;
+  font-size: 14px;
+  font-family: 'Inter';
+  margin-top: 4px;
+}
+
+.star-icon {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  margin: 8px;
+}
+.books-heading {
+  font-size: 16px;
+  line-height: 21px;
+  color: #334155;
+  font-weight: 500;
+}
+.hr-line {
+  color: #94a3b8;
+  width: 90%;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+.link-item {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+.no-results-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-books-img {
+  width: 40%;
+  align-self: center;
+}
+.sub-heading {
+  font-size: 16px;
+  color: #334155;
+  font-weight: 500;
+}
+.para {
+  font-size: 14px;
+  margin-top: 0;
+  color: #475569;
+}
+
+@media screen and (min-width: 768px) {
+  .book-details-container {
+    width: 80%;
+    align-self: center;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+    background: #ffffff;
+    box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.08),
+      0px 1px 2px rgba(96, 97, 112, 0.16);
+    border-radius: 16px;
+  }
+  .details-card {
+    display: flex;
+    flex-direction: row;
+  }
+  .heading-container {
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+}
